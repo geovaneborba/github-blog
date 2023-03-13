@@ -9,8 +9,9 @@ export function App() {
     <BrowserRouter>
       <ThemeProvider theme={defaultTheme}>
         <Router />
+
+        <GlobalStyles />
       </ThemeProvider>
-      <GlobalStyles />
     </BrowserRouter>
   )
 }
