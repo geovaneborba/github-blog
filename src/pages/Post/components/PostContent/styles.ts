@@ -24,4 +24,8 @@ export const Content = styled.div`
   img {
     width: 100%;
   }
+
+  ul {
+    padding-left: 2rem;
+  }
 `
