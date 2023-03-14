@@ -18,9 +18,7 @@ export function Home() {
 
   async function fetchPosts(query?: string) {
     const response = await api.get(
-      `search/issues?q=${
-        query ? query : ''
-      } repo:geovaneborba/rocketseat-ignite-desafios`
+      `search/issues?q=${query ? query : ''} repo:geovaneborba/github-blog`
     )
 
     setPosts(response.data.items)

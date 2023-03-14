@@ -26,7 +26,7 @@ export function Post() {
   useEffect(() => {
     async function fetchPosts() {
       const response = await api.get(
-        `repos/geovaneborba/rocketseat-ignite-desafios/issues/${id}`
+        `repos/geovaneborba/github-blog/issues/${id}`
       )
 
       setPost(response.data)
