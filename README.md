@@ -1,9 +1,9 @@
 <img src="./assets/github-blog.png" alt="Imagem do banner github blog" />
 
 <p align="center">
-  <img alt="Repo size"  src="https://img.shields.io/github/repo-size/geovaneborba/github-blog?color=4f46e5&style=for-the-badge">
-  <img alt="GitHub top language"  src="https://img.shields.io/github/languages/top/geovaneborba/github-blog?color=4f46e5&style=for-the-badge"> <img alt="GitHub language count"  src="https://img.shields.io/github/languages/count/geovaneborba/github-blog?color=4f46e5&style=for-the-badge">
-  <img alt="Licença" src="https://img.shields.io/github/license/geovaneborba/github-blog?color=4f46e5&style=for-the-badge">
+  <img alt="Repo size"  src="https://img.shields.io/github/repo-size/geovaneborba/ignite-github-blog?color=4f46e5&style=for-the-badge">
+  <img alt="GitHub top language"  src="https://img.shields.io/github/languages/top/geovaneborba/ignite-github-blog?color=4f46e5&style=for-the-badge"> <img alt="GitHub language count"  src="https://img.shields.io/github/languages/count/geovaneborba/ignite-github-blog?color=4f46e5&style=for-the-badge">
+  <img alt="Licença" src="https://img.shields.io/github/license/geovaneborba/ignite-github-blog?color=4f46e5&style=for-the-badge">
 </p>
 
 <p align="center">
@@ -58,10 +58,10 @@ Antes de começar, você precisa ter o [Git](https://git-scm.com) e o [Node](htt
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/geovaneborba/github-blog.git
+$ git clone https://github.com/geovaneborba/ignite-github-blog.git
 
 # Entre na pasta
-$ cd github-blog
+$ cd ignite-github-blog
 
 # Instale as dependências
 $ npm install
