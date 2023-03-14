@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { api } from '../../lib/axios'
-import { Post } from './components/PostCard'
+import { PostCard } from './components/PostCard'
 import { Profile } from './components/Profile'
 import { SearchForm } from './components/SearchForm'
 import { HomeContainer, PostContainer, PostInfo, PostList } from './styles'
@@ -46,7 +46,7 @@ export function Home() {
           {posts.length === 0 && <span>Nenhuma publicação encontrada!</span>}
 
           {posts.map((post) => (
-            <Post post={post} key={post.id} />
+            <PostCard post={post} key={post.id} />
           ))}
         </PostList>
       </PostContainer>
